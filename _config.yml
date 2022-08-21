@@ -4,16 +4,16 @@
 
 # Site
 title: nwiio
-subtitle: ''
+subtitle: '屠龙少年'
 description: ''
 keywords:
-author: John Doe
-language: en
+author: nwiio
+language: zh-CN
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: nwiio.top
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -102,4 +102,6 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: git@github.com:nwiio/nwiio.github.io.git
+  branch: master
